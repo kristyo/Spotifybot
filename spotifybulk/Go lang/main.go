@@ -97,7 +97,7 @@ func main() {
    \_/ \_/ \_/ \_/ \_/ \_/ \_/ 
  ` + "\n")
 
-	password := "chsangkara"
+	password := "@chsangkara01"
 	utilsClient := NewSpotifyAPI(nil, password)
 
 	file, _ := os.OpenFile("spotify_acc.txt", os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0644)
